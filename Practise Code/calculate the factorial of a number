@@ -3,8 +3,7 @@ class Main {
     int n = 5;
     int fac = 1;
     for(int i=1;i<=n;i++){
-        fac*=i;
-        
+        fac*=i;   
     }
     System.out.println("factorial number of "+n+" is:" +fac);
     }
