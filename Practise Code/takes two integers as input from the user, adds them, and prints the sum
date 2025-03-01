@@ -12,7 +12,6 @@ class Main {
    
    sum=num1+num2;
   
-  System.out.println("Total Value:"+sum);
-   
+  System.out.println("Total Value:"+sum);   
     }
 }
