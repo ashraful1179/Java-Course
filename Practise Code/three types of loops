@@ -6,7 +6,7 @@ class Main {
   while (i<100){
       i++;
       System.out.println("Md.Ashraful Islam");
-  }
+       }
     }
 }
 
@@ -19,7 +19,7 @@ class Main {
   while (i<100){
       i++;
       System.out.println("Md.Ashraful Islam");
-  }
+        }
     }
 }
 
