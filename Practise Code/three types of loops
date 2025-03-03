@@ -1,0 +1,42 @@
+//for loop
+
+class Main {
+    public static void main(String[] args) {
+  int i=0;
+  while (i<100){
+      i++;
+      System.out.println("Md.Ashraful Islam");
+  }
+    }
+}
+
+
+// while loop
+
+class Main {
+    public static void main(String[] args) {
+  int i=0;
+  while (i<100){
+      i++;
+      System.out.println("Md.Ashraful Islam");
+  }
+    }
+}
+
+
+// do while loop
+
+class Main {
+    public static void main(String[] args) {
+        int i=0;
+      do{
+      i++;
+          System.out.println("Md. Ashraful Islam");
+      }while (i<100);
+    }
+}
+
+
+
+
+
