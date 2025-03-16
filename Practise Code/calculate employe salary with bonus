@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       
+      double totalSalary,bonus=0;
+      
+    Scanner s1=new Scanner(System.in);
+    System.out.println("Enter employee salary:");
+    double salary=s1.nextDouble();
+    System.out.println("Enter employee experiance:");
+    double experiance=s1.nextDouble();
+    if(experiance>=5){
+        bonus=salary*0.1;
+    }else if(experiance>=3){
+        bonus=salary*0.05;
+    }
+    totalSalary=bonus+salary;
+    System.out.println("Total salary after bonyus:"+totalSalary);
+    }
+}
