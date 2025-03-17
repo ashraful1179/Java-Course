@@ -9,7 +9,6 @@ class Main {
      lastdigit=number%10;
      reverse=(reverse*10)+lastdigit;
      number=number/10;
-     
  }while(number>0);
  System.out.println("The reverse number are:"+reverse);
 
