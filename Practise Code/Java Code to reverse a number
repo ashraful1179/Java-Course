@@ -11,6 +11,5 @@ class Main {
      number=number/10;
  }while(number>0);
  System.out.println("The reverse number are:"+reverse);
-
     }
 }
