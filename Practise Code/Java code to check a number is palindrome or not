@@ -14,9 +14,8 @@ import java.util.Scanner;
    reverse=reverse*10+lastdigit;
    number=number/10;
  } while (number > 0);
- 
+
  if(originalNumber==reverse){
- 
  System.out.println ("palindrome number");  
            }
            else{
