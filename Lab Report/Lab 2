@@ -1,0 +1,92 @@
+//Problemn 1
+
+import java.util.Scanner;
+
+class Main {
+public static void main(String[] args) {
+int n = 5;
+for (int i = 1; i <= 5; i++) {
+for (int j = i; j < n; j++) {
+System.out.print(" ");
+}
+for (int j = 0; j < i; j++) {
+System.out.print("* ");
+}
+System.out.println();
+}
+}
+}
+
+
+
+
+//Problem 2
+
+import java.util.Scanner;
+
+class Main {
+public static void main(String[] args) {
+Scanner s1 = new Scanner(System.in);
+
+System.out.println("Enter the traffic light color (Green, Yellow, Red):");
+String light = s1.next();
+
+switch (light) {
+case "Green":
+System.out.println("Enter 1 if a pedestrian is waiting, else enter 0:");
+int waiting = s1.nextInt();
+if (waiting == 1) {
+System.out.println("Slow Down");
+} else {
+System.out.println("Drive");
+}
+
+break;
+
+case "Yellow":
+System.out.println("Prepare to stop");
+break;
+
+case "Red":
+System.out.println("Stop");
+break;
+
+default:
+System.out.println("Invalid command");
+break;
+}
+s1.close();
+}
+}
+
+
+
+//Problem 3
+
+public static void main(String[] args) {
+System.out.println("odd number up to 100:");
+for(int i=1;i<=100;i+=2){
+System.out.print(i+ " ");
+}
+}
+}
+
+
+
+
+//Problem 4
+
+import java.util.Scanner;
+class Main {
+public static void main(String[] args) {
+Scanner s1 = new Scanner(System.in);
+System.out.println("Enter a string to reverse:");
+String input = s1.nextLine();
+String reversed = "";
+for (int i = input.length() - 1; i >= 0; i--) {
+reversed += input.charAt(i);
+}
+System.out.println("Reversed string: " + reversed);
+
+}
+}
